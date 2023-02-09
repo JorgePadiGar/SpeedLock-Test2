@@ -1,0 +1,30 @@
+{
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "C:\\ESP32\\.espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32-elf\\bin;C:\\ESP32\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32s2-elf\\bin;C:\\ESP32\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32s3-elf\\bin;C:\\ESP32\\.espressif\\tools\\riscv32-esp-elf\\esp-2021r2-patch3-8.4.0\\riscv32-esp-elf\\bin;C:\\ESP32\\.espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\ESP32\\.espressif\\tools\\esp32s2ulp-elf\\2.28.51-esp-20191205\\esp32s2ulp-elf-binutils\\bin;C:\\ESP32\\.espressif\\tools\\cmake\\3.16.4\\bin;C:\\ESP32\\.espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20220706\\openocd-esp32\\bin;C:\\ESP32\\.espressif\\tools\\ninja\\1.10.2;C:\\ESP32\\.espressif\\tools\\idf-exe\\1.0.1;C:\\ESP32\\.espressif\\tools\\ccache\\3.7;C:\\ESP32\\.espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64",
+    "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"C:\\\\ESP32\\\\.espressif\\\\tools\\\\openocd-esp32\\\\v0.11.0-esp32-20220706/openocd-esp32/share/openocd/scripts\",\"IDF_CCACHE_ENABLE\":\"1\"}",
+    "idf.espIdfPathWin": "C:\\ESP32\\esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.pythonBinPathWin": "C:\\ESP32\\.espressif\\python_env\\idf4.3_py3.8_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "C:\\ESP32\\.espressif",
+    "files.associations": {
+        "esp_bt.h": "c",
+        "esp_log.h": "c",
+        "esp_gap_bt_api.h": "c",
+        "stdio.h": "c",
+        "app_adc_dac.h": "c",
+        "app_button.h": "c",
+        "esp_bt_device.h": "c",
+        "esp_bt_main.h": "c",
+        "app_led.h": "c",
+        "nvs_flash.h": "c",
+        "nvs.h": "c",
+        "string.h": "c",
+        "app_nvs.h": "c",
+        "esp_efuse_utility.h": "c"
+    },
+    "idf.portWin": "COM3",
+    "idf.flashType": "UART"
+}
