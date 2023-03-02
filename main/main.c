@@ -323,7 +323,6 @@ void app_main(void)
 
 void init_pwm(void)
 {
-
     
     //printf("Resultado dutycicle: %i\n",duty_cicle_1);
     int pwm_duty_1 = duty_cicle_1 * 4096 / 100;
@@ -350,7 +349,7 @@ void init_pwm(void)
 
     ledc_timer_config(&timer_1);        
     //vTaskDelay(150 / portTICK_PERIOD_MS);
-    vTaskDelay(190 / portTICK_PERIOD_MS);
+    //vTaskDelay(190 / portTICK_PERIOD_MS);
     ledc_timer_config(&timer_2);
 
     pwm_1.channel = LEDC_CHANNEL_0;
